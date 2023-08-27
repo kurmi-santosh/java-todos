@@ -18,11 +18,12 @@ public class TodosController {
         todoItems = new ArrayList<Todo>();
         todoItems.add(new Todo("Prayer", "Go to temple", false));
         todoItems.add(new Todo("Bike", "Get it cleaned", false));
+        todoItems.add(new Todo("Car", "You don't have car", false));
     }
 
     @GetMapping("/")
     public String home(){
-       return " <h2> Welcome! It's time to do! </h2>";
+       return " <h2> Welcome! It's time to do ! </h2> ";
     }
 
     @GetMapping("/todos")
