@@ -20,6 +20,7 @@ public class TodosController {
         todoItems.add(new Todo("Bike", "Get it cleaned", false));
         todoItems.add(new Todo("Car", "You don't have car", false));
         todoItems.add(new Todo("Go home", "No need to remind", false));
+        todoItems.add(new Todo("Office", "Do your work", false));
     }
 
     @GetMapping("/")
